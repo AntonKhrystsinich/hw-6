@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>ToDo List</title>
+        <meta charset="UTF-8">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+		<div class="wrapper">
+				<header class="page-header">
+					<h1 class="main-title">Cписок дел</h1>
+					<form>
+						<input type="text" id="task-text" onkeyup="checkEnterHit(event);">
+						<button type="button" class="btn" id="task-add" onclick="addClicked();">Добавить дело</button>
+					</form>
+				</header>
+				<ul id="task-list">
+				</ul>
+		</div>
+	</body>
+</html>
